@@ -1,0 +1,50 @@
+[
+  {
+    "month": "January",
+    "products": 902
+  },
+  {
+    "month": "February",
+    "products": 721
+  },
+  {
+    "month": "March",
+    "products":400
+  },
+  {
+    "month": "April",
+    "products":500
+  },
+  {
+    "month": "May",
+    "products":560
+  },
+  {
+    "month": "June",
+    "products":750
+  },
+  {
+    "month": "July",
+    "products":500
+  },
+  {
+    "month": "August",
+    "products":600
+  },
+  {
+    "month": "September",
+    "products":360
+  },
+  {
+    "month": "October",
+    "products":520
+  },
+  {
+    "month": "November",
+    "products":650
+  },
+  {
+    "month": "December",
+    "products": 980
+  }
+]

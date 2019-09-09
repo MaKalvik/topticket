@@ -1,0 +1,26 @@
+[
+  {
+    "country": "Estonia",
+    "visits": 501
+  },
+  {
+    "country": "Russia",
+    "visits": 350
+  },
+  {
+    "country": "Finland",
+    "visits": 450
+  },
+  {
+    "country": "Latvia",
+    "visits": 360
+  },
+  {
+    "country": "Lithuania",
+    "visits": 150
+  },
+  {
+    "country": "Sweden",
+    "visits": 200
+  }
+]

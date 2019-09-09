@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Festivals",
+    "sales": 360
+  },
+  {
+    "category": "Concerts",
+    "sales": 430
+  },
+  {
+    "category": "Theatre",
+    "sales": 300
+  },
+  {
+    "category": "Sport",
+    "sales": 50
+  },
+  {
+    "category": "Exhibitions",
+    "sales": 160
+  },
+  {
+    "category": "Films",
+    "sales": 200
+  }
+]
