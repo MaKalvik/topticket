@@ -5,20 +5,23 @@
                 enter-active-class="animated zoomInRight">
       <router-view/>
     </transition>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-  import NavBar from "./components/NavBar";
+    import NavBar from "./components/NavBar";
+    import Footer from "./components/Footer";
 
-  export default {
+    export default {
 
-    name: 'App',
+        name: 'App',
 
-    components: {
-      'NavBar': NavBar,
+        components: {
+            'NavBar': NavBar,
+            'Footer': Footer
+        }
     }
-  }
 </script>
 
 <style>

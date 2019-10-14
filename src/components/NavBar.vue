@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar-frame">
     <div class="container">
-      <a class="navbar-brand navbar--brand--clickable hover--style"  @click="toLanding">TopTicket</a>
+      <a class="navbar-brand navbar--brand--clickable hover--style" @click="toLanding">TopTicket</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
               aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
           </li>
           <li class="nav-item icon--style hover--style" @click="toCart">
             <font-awesome-icon icon="shopping-cart"/>
-<!--            <a class="nav-link fa fa-shopping-cart clickable-icon" @click="toCart"></a>-->
+            <!--            <a class="nav-link fa fa-shopping-cart clickable-icon" @click="toCart"></a>-->
           </li>
         </ul>
       </div>
@@ -36,14 +36,14 @@
 <script>
     export default {
         name: "NavBar",
-      methods: {
-          toCart() {
-            this.$router.push('/cart')
-          },
-        toLanding() {
-            this.$router.push('/')
+        methods: {
+            toCart() {
+                this.$router.push('/cart')
+            },
+            toLanding() {
+                this.$router.push('/')
+            }
         }
-      }
     }
 </script>
 
@@ -63,6 +63,4 @@
   .hover--style {
     cursor: pointer;
   }
-  
-
 </style>
